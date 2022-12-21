@@ -28,6 +28,7 @@ const getDelay = (rotateLeft: boolean, index: number) => {
 
 const BaseLevelGrid: React.FunctionComponent<IProps> = ({ match }) => {
   const categoryId = match.params.categoryId;
+  console.log({categoryId});
   const category = getCategoryWithLevels(categoryId);
   const rotateLeft = useRotateDirection(category.title);
   return (

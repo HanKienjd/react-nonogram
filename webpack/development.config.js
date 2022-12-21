@@ -29,7 +29,7 @@ module.exports = merge(common, {
   devServer: {
     inline: true,
     hot: true,
-    port: 3000,
+    port: 8089,
     host: "0.0.0.0",
     public: "localhost",
     publicPath: "/",
